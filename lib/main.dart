@@ -15,8 +15,10 @@ void main() {
 
 void initAppCenter() async{
 
+  //
   final ios = defaultTargetPlatform == TargetPlatform.iOS;
   var app_secret = ios ?
+
   "e8c35626-75bc-4791-9853-1c58d33925a5" :
   "ecf5e857-ce28-40af-a4f1-fce3d78a22cb";
 
