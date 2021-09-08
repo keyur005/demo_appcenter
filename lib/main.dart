@@ -6,6 +6,8 @@ import 'package:appcenter_crashes/appcenter_crashes.dart';
 
 void main() {
 
+
+  
   runApp(MyApp());
 
   initAppCenter();
