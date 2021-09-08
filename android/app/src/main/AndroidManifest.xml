@@ -2,6 +2,7 @@
     package="com.example.flutter_appcenter_demo">
    <application
         android:label="flutter_appcenter_demo"
+        android:fullBackupContent="@xml/appcenter_backup_rule"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
