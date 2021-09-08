@@ -6,7 +6,6 @@ import com.microsoft.appcenter.crashes.Crashes;
 import io.flutter.embedding.android.FlutterActivity
 
 class MainActivity: FlutterActivity() {
-
-    AppCenter.start(getApplication(), "ecf5e857-ce28-40af-a4f1-fce3d78a22cb",
-    Analytics.class, Crashes.class);
+   // AppCenter.start(getApplication(), "ecf5e857-ce28-40af-a4f1-fce3d78a22cb",Analytics.class, Crashes.class);
 }
+
